@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Lugares Turísticos da Europa</title>
+</head>
+<body>
+    <main>
+        <h1>Lugares Turísticos da Europa</h1>
+            <ul>
+                <h2>França</h2>
+                <p>Principais pontos turísticos da França</p>
+                    <ol>
+                        <li><a href="https://mundoeducacao.uol.com.br/curiosidades/torre-eiffel.htm" target="_blank" rel="external">Torre Eiffel – Paris</a></li><br>
+                        <li><a href="https://www.tudosobreparis.com/catedral-notre-dame" target="_blank" rel="external">Catedral de Notre Dame - Paris</a></li><br>
+                        <li><a href="https://www.tudosobreparis.com/palacio-versalhes" target="_blank" rel="external">Palácio de Versalhes - Paris</a></li><br>
+                    </ol><br>
+                    <p><a href="https://dicasparis.com.br/franca/principais-pontos-turisticos-da-franca/" target="_blank" rel="external">Dicas de Paris</a></p><br>
+        
+                <h2>Grécia</h2>
+                <p>Principais pontos turísticos da Grécia</p>
+                    <ol>
+                        <li><a href="https://br.memphistours.com/Turquia/tudo-sobre-a-grecia/atenas-grecia/wiki/acropole-de-atenas" target="_blank" rel="external">Acrópole – Atenas</a></li><br>
+                        <li><a href="https://www.amochilaeomundo.com/2015/07/grecia-oia-o-que-fazer-cartao-postal-santorini-por-do-sol.html" target="_blank" rel="external">Oia – Santorini</a></li><br>
+                        <li><a href="https://www.amochilaeomundo.com/2015/07/grecia-kefalonia-melissani-lagoa-lake-caverna-cave-pan-ninfas.html" target="_blank" rel="external">Caverna de Melissanthi - Kefalonia</a></li><br>
+                    </ol><br>
+                    <p><a href="https://dicadagrecia.com.br/grecia/principais-pontos-turisticos-da-grecia/" target="_blank" rel="external">Dicas da Grécia</a></p><br>
+        
+                <h2>Itália &#x;</h2>
+                <p>Principais pontos turísticos da Itália</p>
+                    <ol>
+                        <li><a href="https://www.rome-museum.com/br/forum-romano.php" target="_blank" rel="external">Fórum Romano e o Palatino - Roma</a></li><br>
+                        <li><a href="https://www.tudosobreroma.com/fontana-di-trevi" target="_blank" rel="external">Fontana di Trevi - Roma</a></li><br>
+                        <li><a href="https://www.milaonasmaos.it/o-duomo-de-milao/" target="_blank" rel="external">Piazza Duomo e Catedral Duomo - Milão</a></li><br>
+                    </ol><br>
+                    <p><a href="https://dicasdaitalia.com.br/italia/principais-pontos-turisticos-da-italia/" target="_blank" rel="external">Dicas da Itália</a></p><br>
+            </ul>
+    </main>
+</body>
+</html>
