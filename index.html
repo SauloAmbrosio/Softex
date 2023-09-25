@@ -1,50 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 1</title>
-    <style>
-        body{
-            background-color: aquamarine;
-        }
-    </style>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Exemplo de Cabeçalho e Rodapé</title>
 </head>
+
 <body>
-    <h1>
-        <strong> Verificação de Velocidade </strong>
-        </h1>
-        <p>
-            Este site verifica a velocidade de seu veículo
-        </p>
+    <header>
+        <img class="total" src="olinda.jpg" alt="olinda">
+        <h1>Olinda</h1>
+        <nav>
+            <a href="#">Página Inicial</a> |
+            <a href="#">Sobre Nós</a> |
+            <a href="#">Contato</a>
+        </nav>
+    </header>
 
-        <input type ="number" name = "txtvel" id = "txtvel">
-        <input type ="button" value = "verificar" onclick = "verificar()">
+    <main>
+        <h2>Olinda Capital da Folia</h2>
+        <p><a href="pag02.html" target="_self" rel="_self">Lugares que mais gosto de frequentar em Olinda</a></p>
+    </main>
 
-        <div id = "res">
-
-            Resultado
-
-        </div>
-        <script>
-            function verificar(){
-                var txtvel = document.querySelector('input#txtvel')
-                var vel = Number(txtvel.value)
-                var res = document.querySelector('div#res')
-                if (vel <= 80){
-                    res.innerHTML = 'Velocidade Segura'
-                    res.style.color = 'green'
-                }
-                else if (vel > 80 && vel <= 88){
-                    res.innerHTML = 'Você esta acima da Velocidade Segura, e próximo de ser Multado!'
-                    res.style.color = 'orange'
-                }
-                else {
-                    res.innerHTML = '<strong> Você está acima da Velocidade Segura e será Multado!</strong>'
-                    res.style.color = 'red'
-
-                }
-            }
-        </script>
+    <footer>
+        <p>&copy; 2023 Olinda para Todxs</p>
+    </footer>
 </body>
+
 </html>
