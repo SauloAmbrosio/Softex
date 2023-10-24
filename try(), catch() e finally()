@@ -1,0 +1,23 @@
+try {
+  // Solicita ao usuário para inserir dois números
+  const numero1 = parseFloat(prompt("Digite o primeiro número:"));
+  const numero2 = parseFloat(prompt("Digite o segundo número:"));
+
+  if (isNaN(numero1) || isNaN(numero2)) {
+    throw new Error("Você deve fornecer números válidos.");
+  }
+
+  const resultado = numero1 / numero2;
+
+  if (!isFinite(resultado)) {
+    throw new Error("Divisão por zero não é permitida.");
+  }
+
+  console.log(`O resultado da divisão é: ${resultado}`);
+} catch (error) {
+  // Captura e trata a exceção
+  console.error("Ocorreu um erro:", error.message);
+} finally {
+  // Executa independentemente de ocorrer ou não uma exceção
+  console.log("Fim da execução.");
+}
